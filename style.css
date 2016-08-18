@@ -1,0 +1,147 @@
+body{
+	margin: 0 auto;
+    text-align: center;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: nice_font;
+    font-size: 1.1vw;
+    background: #DEDEDE;
+}
+h4{
+	font-size: 1.3vw;
+	color: #555555;
+}
+select{
+	width: 8vw;
+	height: 2vw;
+	font-size: 1.2vw;
+	outline: 0;
+    font-family: nice_font;
+}
+@font-face {
+    font-family: nice_font;
+    src: url(./fonts/Sansation-Light.ttf);
+}
+@font-face {
+    font-family: nice_font_bold;
+    src: url(./fonts/Sansation-Bold.ttf);
+}
+.blocks{
+	display: block;
+	width: 100%;
+	color: #FFFFFF;
+	background: #999999;
+    text-align: left;
+}
+.table_header{
+    text-align: center;
+    height: 2vw;
+}
+.table_header_title{
+	width: 51vw;
+}
+.table_header_github{
+	width: 6vw;
+}
+.table_header_jira{
+	width: 6vw;
+}
+.table_header_branch{
+	width: 26vw;
+}
+.table_header_creator{
+	width: 6vw;
+}
+.table_header_status{
+	width: 6vw;
+}
+.table_row{
+	padding: 20px;
+	color: #FFFFFF;
+	background: #CCCCCC;
+	-webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+.table_row:hover{
+	background: #C0C0C0;
+	-webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+.table_title{
+	padding-left: 1vw;
+	font-weight: bold;
+	cursor: pointer;
+}
+.table_github{
+	text-align: center;
+}
+.table_jira{
+	text-align: center;
+	color: #555555;
+}
+.table_branch_name{
+	padding-left: 1vw;
+	color: #00AA00;
+}
+.table_creator{
+	text-align: center;
+}
+.table_open_for{
+	width: 6vw;
+	text-align: center;
+	background: #BBBB00;
+}
+.table_closed_for{
+	width: 6vw;
+	text-align: center;
+	background: #00802b;
+}
+.github_logo{
+    width: 3vw;
+    height: auto;
+	border: 0;
+}
+.jira_logo{
+    width: 3vw;
+    height: auto;
+	border: 0;
+}
+.creator_logo{
+    width: 3vw;
+    height: auto;
+	border: 0;
+	border-radius: 0.4vw;
+}
+#pages_buttons{
+	display: block;
+	text-align: center;
+}
+#previous_page{
+	display: inline-block;
+	width: 2.5vw;
+	margin: 0 auto;
+	cursor: pointer;
+    outline:0 !important;
+}
+#next_page{
+	display: inline-block;
+	width: 2.5vw;
+	margin: 0 auto;
+	cursor: pointer;
+    outline:0 !important;
+}
+#page_number_field{
+	display: inline-block;
+	width: 2.3vw;
+	height: 1.5vw;
+	margin: 0 auto;
+	margin: 0.4vw 0.4vw 0.4vw 0.4vw;
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid #BCBCBC;
+	border-radius: 0.5vw;
+}
+
+
+
+
+
